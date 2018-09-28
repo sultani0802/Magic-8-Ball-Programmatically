@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CA2B603215EC00E00992D02 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2B602215EC00E00992D02 /* BottomContainerView.swift */; };
+		0CA2B604215EC01100992D02 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2B602215EC00E00992D02 /* BottomContainerView.swift */; };
+		0CA2B605215EC01100992D02 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA2B602215EC00E00992D02 /* BottomContainerView.swift */; };
 		0CADF1DA215DB8C700099024 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1D9215DB8C700099024 /* AppDelegate.swift */; };
 		0CADF1DC215DB8C700099024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1DB215DB8C700099024 /* ViewController.swift */; };
-		0CADF1DF215DB8C700099024 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CADF1DD215DB8C700099024 /* Main.storyboard */; };
 		0CADF1E1215DB8C700099024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CADF1E0215DB8C700099024 /* Assets.xcassets */; };
 		0CADF1E4215DB8C700099024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CADF1E2215DB8C700099024 /* LaunchScreen.storyboard */; };
 		0CADF1EF215DB8C700099024 /* Magic_8_Ball_ProgrammaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1EE215DB8C700099024 /* Magic_8_Ball_ProgrammaticallyTests.swift */; };
 		0CADF1FA215DB8C800099024 /* Magic_8_Ball_ProgrammaticallyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1F9215DB8C800099024 /* Magic_8_Ball_ProgrammaticallyUITests.swift */; };
+		0CADF208215DBCBF00099024 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF207215DBCBF00099024 /* Answer.swift */; };
+		0CADF20B215DC2D200099024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1DB215DB8C700099024 /* ViewController.swift */; };
+		0CADF20C215DC2D200099024 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF1DB215DB8C700099024 /* ViewController.swift */; };
+		0CADF20E215DC6A200099024 /* TopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF20D215DC6A200099024 /* TopContainerView.swift */; };
+		0CADF212215DC9EB00099024 /* TopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF20D215DC6A200099024 /* TopContainerView.swift */; };
+		0CADF213215DC9EB00099024 /* TopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF20D215DC6A200099024 /* TopContainerView.swift */; };
+		0CADF215215DCB9A00099024 /* BallContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF214215DCB9A00099024 /* BallContainerView.swift */; };
+		0CADF216215DCB9A00099024 /* BallContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF214215DCB9A00099024 /* BallContainerView.swift */; };
+		0CADF217215DCB9A00099024 /* BallContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADF214215DCB9A00099024 /* BallContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CA2B602215EC00E00992D02 /* BottomContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerView.swift; sourceTree = "<group>"; };
 		0CADF1D6215DB8C700099024 /* Magic 8 Ball Programmatically.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball Programmatically.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CADF1D9215DB8C700099024 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CADF1DB215DB8C700099024 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0CADF1DE215DB8C700099024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CADF1E0215DB8C700099024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CADF1E3215DB8C700099024 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CADF1E5215DB8C700099024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		0CADF1F5215DB8C700099024 /* Magic 8 Ball ProgrammaticallyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Magic 8 Ball ProgrammaticallyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CADF1F9215DB8C800099024 /* Magic_8_Ball_ProgrammaticallyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magic_8_Ball_ProgrammaticallyUITests.swift; sourceTree = "<group>"; };
 		0CADF1FB215DB8C800099024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CADF207215DBCBF00099024 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		0CADF20D215DC6A200099024 /* TopContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainerView.swift; sourceTree = "<group>"; };
+		0CADF214215DCB9A00099024 /* BallContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,9 @@
 		0CADF1D8215DB8C700099024 /* Magic 8 Ball Programmatically */ = {
 			isa = PBXGroup;
 			children = (
-				0CADF1D9215DB8C700099024 /* AppDelegate.swift */,
-				0CADF1DB215DB8C700099024 /* ViewController.swift */,
-				0CADF1DD215DB8C700099024 /* Main.storyboard */,
+				0CADF209215DBCC200099024 /* Models */,
+				0CADF211215DC9B800099024 /* Views */,
+				0CADF20A215DBCCE00099024 /* Controllers */,
 				0CADF1E0215DB8C700099024 /* Assets.xcassets */,
 				0CADF1E2215DB8C700099024 /* LaunchScreen.storyboard */,
 				0CADF1E5215DB8C700099024 /* Info.plist */,
@@ -123,6 +137,33 @@
 				0CADF1FB215DB8C800099024 /* Info.plist */,
 			);
 			path = "Magic 8 Ball ProgrammaticallyUITests";
+			sourceTree = "<group>";
+		};
+		0CADF209215DBCC200099024 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CADF207215DBCBF00099024 /* Answer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CADF20A215DBCCE00099024 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CADF1D9215DB8C700099024 /* AppDelegate.swift */,
+				0CADF1DB215DB8C700099024 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0CADF211215DC9B800099024 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CADF20D215DC6A200099024 /* TopContainerView.swift */,
+				0CADF214215DCB9A00099024 /* BallContainerView.swift */,
+				0CA2B602215EC00E00992D02 /* BottomContainerView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +272,6 @@
 			files = (
 				0CADF1E4215DB8C700099024 /* LaunchScreen.storyboard in Resources */,
 				0CADF1E1215DB8C700099024 /* Assets.xcassets in Resources */,
-				0CADF1DF215DB8C700099024 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CADF208215DBCBF00099024 /* Answer.swift in Sources */,
+				0CA2B603215EC00E00992D02 /* BottomContainerView.swift in Sources */,
+				0CADF215215DCB9A00099024 /* BallContainerView.swift in Sources */,
 				0CADF1DC215DB8C700099024 /* ViewController.swift in Sources */,
+				0CADF20E215DC6A200099024 /* TopContainerView.swift in Sources */,
 				0CADF1DA215DB8C700099024 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CADF213215DC9EB00099024 /* TopContainerView.swift in Sources */,
+				0CADF20C215DC2D200099024 /* ViewController.swift in Sources */,
+				0CA2B604215EC01100992D02 /* BottomContainerView.swift in Sources */,
 				0CADF1EF215DB8C700099024 /* Magic_8_Ball_ProgrammaticallyTests.swift in Sources */,
+				0CADF216215DCB9A00099024 /* BallContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CADF212215DC9EB00099024 /* TopContainerView.swift in Sources */,
+				0CADF20B215DC2D200099024 /* ViewController.swift in Sources */,
+				0CA2B605215EC01100992D02 /* BottomContainerView.swift in Sources */,
 				0CADF1FA215DB8C800099024 /* Magic_8_Ball_ProgrammaticallyUITests.swift in Sources */,
+				0CADF217215DCB9A00099024 /* BallContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +345,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0CADF1DD215DB8C700099024 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0CADF1DE215DB8C700099024 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0CADF1E2215DB8C700099024 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sultani.Magic-8-Ball-Programmatically";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sultani.Magic-8-Ball-Programmatically";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
